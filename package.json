@@ -1,0 +1,32 @@
+{
+  "name": "PostgreSQL_Test",
+  "version": "1.0.0",
+  "description": "Test Backend in PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taterntots/PostgreSQL_Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taterntots/PostgreSQL_Test/issues"
+  },
+  "homepage": "https://github.com/taterntots/PostgreSQL_Test#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.9",
+    "knex-cleaner": "^1.3.0",
+    "nodemon": "^2.0.2"
+  }
+}
