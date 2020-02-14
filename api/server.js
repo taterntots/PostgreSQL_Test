@@ -1,6 +1,7 @@
 const express = require('express');
 const helmet = require('helmet');
 const cors = require('cors');
+const PokeRouter = require('../routers/pokemon-router');
 const server = express();
 
 //global middleware
@@ -14,6 +15,6 @@ server.get('/', (req, res) => {
 });
 
 //routes
-// server.use('/api/auth', authRouter);
+server.use('/api/pokemon', PokeRouter);
 
 module.exports = server
